@@ -1,0 +1,17 @@
+[
+  {
+    "name": "naga susmitha",
+    "age": 22,
+    "city": "mulakaluru",
+    "aadhar": 1234,
+    "study": {
+      "college": "sdfg"
+    }
+  },
+  {
+    "name": "naga susmitha",
+    "age": 22,
+    "city": "mulakaluru",
+    "pan": 3445
+  }
+]

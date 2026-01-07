@@ -1,0 +1,27 @@
+%dw 2.0
+output application/json skipNullOn = "everywhere"
+import * from dw::core::Strings
+---
+payload map ((item, index) ->{
+    firstname: item.name substringBefore  " " ,
+    lastname: item.name substringAfter  " ",
+    city: item.city,
+    aadhar: item.aadhar,
+    pan: item.pan
+})
+
+
+
+
+/*[{
+    firstname:naga,
+lastname:susmitha,
+city:mulakaluru,
+aadhar:1234
+},
+{
+    firstname:naga,
+lastname:susmitha,
+city:mulakaluru,
+pan:3445
+}]*/
